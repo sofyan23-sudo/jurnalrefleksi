@@ -232,7 +232,7 @@
 
                     // Karena mode 'no-cors', kita tidak bisa membaca respon langsung.
                     // Asumsikan sukses jika tidak ada error dari operasi fetch.
-                    responseMessage.textContent = 'Jurnal berhasil disimpan! Terima kasih.';
+                    responseMessage.textContent = 'Refleksi berhasil disimpan! Terima kasih.';
                     responseMessage.className = 'p-3 rounded-lg text-center font-semibold bg-green-100 text-green-700';
                     responseMessage.classList.remove('hidden');
 
@@ -250,7 +250,7 @@
                 } finally {
                     loadingMessage.classList.add('hidden');
                     submitButton.disabled = false;
-                    submitButton.textContent = 'Kirim Jurnal';
+                    submitButton.textContent = 'Kirim Refleksi Saya';
                 }
             });
         });
